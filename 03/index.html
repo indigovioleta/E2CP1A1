@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Banderas</title>
+	<style>
+		*, *:before, *:after {
+			box-sizing: border-box;
+		}
+		h1 {
+			font-size: 20px;
+		}
+
+		.espana {
+			border: 1px solid #666;
+			width: 500px;
+			height: 300px;
+			margin-bottom: 30px;
+		}
+			.rojo-espana {
+				height: 90px;
+				width: 100%;
+				background-color: #ff0000;
+				position: relative;
+			}
+			.amarillo-espana {
+				height: 120px;
+				width: 100%;
+				background-color: #fff200;
+				position: relative;
+			}
+
+		.dinamarca {
+			box-sizing: border-box;
+			border: 1px solid #666;
+			width: 500px;
+			height: 300px;
+			margin-bottom: 30px;
+		}
+			.cuadrado-rojo1 {
+				width: 30%;
+				height: 135px;
+				float:left;
+				top: 0;
+				left: 0;
+				background-color: #ff0000;
+				margin-bottom: 30px;
+			}
+
+			.rectangulo-rojo1 {
+				width: 63%;
+				height: 135px;
+				position: relative;
+				float: right;
+				top: 0;
+				right: 0;
+				background-color: #ff0000;
+				margin-bottom: 30px;
+			}
+
+			.cuadrado-rojo2 {
+				width: 30%;
+				height: 135px;
+				position: relative;
+				float: left;
+				bottom: 0;
+				left: 0;
+				background-color: #ff0000;		
+			}
+
+			.rectangulo-rojo2 {
+				background-color: #ff0000;
+				width: 63%;
+				height: 135px;
+				position: relative;
+				float: right;
+				bottom: 0;
+				right: 0;
+				background-color: #ff0000;
+			}
+
+		.emiratos {
+			border: 1px solid #666;
+			width: 500px;
+			height: 300px;
+			margin-bottom: 30px;
+			position: relative;
+		}
+			.interior {
+				width: 200px;
+				height: 300px;
+				float: right;
+			}
+
+			.rectangulo-rojo-arabe {
+				position: relative;
+				float: left;
+				left: 0;
+				top: 0;
+				height: 300px;
+				width: 100px;
+				background-color: #ff0000;
+			}
+
+			.rectangulo-verde {
+				position: relative;
+				float:right;
+				top:0;
+				height: 100px;
+				width: 400px;
+				background-color: #086617;
+			}
+
+			.rectangulo-blanco {
+				float: right;
+				position: relative;
+				right:0;
+				height: 100px;
+				width: 400px;
+				background-color: #ffffff;
+			}
+
+			.rectangulo-negro {
+				float: right;
+				position: relative;
+				bottom:0;
+				height: 100px;
+				width: 400px;
+				background-color: #000000;
+			}
+
+		.japon {
+			border: 1px solid #666;
+			width: 500px;
+			height: 300px;
+			background-color: #ffffff;
+			margin-bottom: 30px;
+		}
+
+			.circulo-rojo {
+				width: 150px;
+     			height: 150px;
+     			-moz-border-radius: 50%;
+     			-webkit-border-radius: 50%;
+     			border-radius: 50%;
+     			background: #ff0000;
+     			position: relative;
+     			top:25%;
+     			left:33%; 
+     		}
+
+	</style>
+</head>
+<body>
+	<h1>España</h1>
+	<div class="espana">
+		<div class="rojo-espana"></div>
+		<div class="amarillo-espana"></div>
+		<div class="rojo-espana"></div>
+	</div>
+	<h1>Dinamarca</h1>
+	<div class="dinamarca">
+		<div class="cuadrado-rojo1"></div>
+		<div class="rectangulo-rojo1"></div>
+		<div class="cuadrado-rojo2"></div>
+		<div class="rectangulo-rojo2"></div>
+	</div>
+	<h1>Emiratos Árabes</h1>
+	<div class="emiratos">
+		<div class="rectangulo-rojo-arabe"></div>
+		<div class="interior">
+			<div class="rectangulo-verde"></div>
+			<div class="rectangulo-blanco"></div>
+			<div class="rectangulo-negro"></div>
+		</div>
+	</div>
+	<h1>Japón</h1>
+	<div class="japon">
+		<div class="circulo-rojo"></div>
+	</div>
+</body>
+</html>
