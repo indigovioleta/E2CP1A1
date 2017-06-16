@@ -8,8 +8,39 @@
 		*, *:before, *:after {
 			box-sizing: border-box;
 		}
+
 		h1 {
+			font-family: 'Helvetica', sans-serif;
 			font-size: 20px;
+		}
+
+		.clearfix {
+			clear: both;
+		}
+
+		.contenedor-1 {
+			width: 50%;
+			height: 350px;
+			float: left;
+			margin-bottom: 20px;
+		}
+		
+		.contenedor-2 {
+			width: 50%;
+			height: 350px;
+			float: right;
+		}
+
+		.contenedor-3 {
+			width: 50%;
+			height: 350px;
+			float: left;
+		}
+
+		.contenedor-4 {
+			width: 50%;
+			height: 350px;
+			float: right;
 		}
 
 		.espana {
@@ -32,6 +63,7 @@
 			}
 
 		.dinamarca {
+
 			box-sizing: border-box;
 			border: 1px solid #666;
 			width: 500px;
@@ -147,37 +179,47 @@
      			background: #ff0000;
      			position: relative;
      			top:25%;
-     			left:33%; 
+     			left:35%; 
      		}
 
 	</style>
 </head>
 <body>
-	<h1>España</h1>
-	<div class="espana">
-		<div class="rojo-espana"></div>
-		<div class="amarillo-espana"></div>
-		<div class="rojo-espana"></div>
-	</div>
-	<h1>Dinamarca</h1>
-	<div class="dinamarca">
-		<div class="cuadrado-rojo1"></div>
-		<div class="rectangulo-rojo1"></div>
-		<div class="cuadrado-rojo2"></div>
-		<div class="rectangulo-rojo2"></div>
-	</div>
-	<h1>Emiratos Árabes</h1>
-	<div class="emiratos">
-		<div class="rectangulo-rojo-arabe"></div>
-		<div class="interior">
-			<div class="rectangulo-verde"></div>
-			<div class="rectangulo-blanco"></div>
-			<div class="rectangulo-negro"></div>
+	
+	<div class="contenedor-1">
+		<h1>España</h1>
+		<div class="espana">
+			<div class="rojo-espana"></div>
+			<div class="amarillo-espana"></div>
+			<div class="rojo-espana"></div>
 		</div>
 	</div>
-	<h1>Japón</h1>
-	<div class="japon">
-		<div class="circulo-rojo"></div>
+	<div class="contenedor-2">
+		<h1>Dinamarca</h1>
+		<div class="dinamarca">
+			<div class="cuadrado-rojo1"></div>
+			<div class="rectangulo-rojo1"></div>
+			<div class="cuadrado-rojo2"></div>
+			<div class="rectangulo-rojo2"></div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="contenedor-3">
+		<h1>Emiratos Árabes</h1>
+		<div class="emiratos">
+			<div class="rectangulo-rojo-arabe"></div>
+			<div class="interior">
+				<div class="rectangulo-verde"></div>
+				<div class="rectangulo-blanco"></div>
+				<div class="rectangulo-negro"></div>
+			</div>
+		</div>
+	</div>
+	<div class="contenedor-4">
+		<h1>Japón</h1>
+		<div class="japon">
+			<div class="circulo-rojo"></div>
+		</div>
 	</div>
 </body>
 </html>
