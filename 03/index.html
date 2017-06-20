@@ -5,12 +5,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Banderas</title>
 	<style>
+		@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 		*, *:before, *:after {
 			box-sizing: border-box;
 		}
 
 		h1 {
-			font-family: 'Helvetica', sans-serif;
+			font-family: 'Playfair Display', serif;
 			font-size: 20px;
 		}
 
@@ -18,26 +20,26 @@
 			clear: both;
 		}
 
-		.contenedor-1 {
+		.contenedor-espana {
 			width: 50%;
 			height: 350px;
 			float: left;
-			margin-bottom: 20px;
+			margin-bottom: 10px;
 		}
 		
-		.contenedor-2 {
+		.contenedor-dinamarca {
 			width: 50%;
 			height: 350px;
 			float: right;
 		}
 
-		.contenedor-3 {
+		.contenedor-emiratos {
 			width: 50%;
 			height: 350px;
 			float: left;
 		}
 
-		.contenedor-4 {
+		.contenedor-japon {
 			width: 50%;
 			height: 350px;
 			float: right;
@@ -47,7 +49,7 @@
 			border: 1px solid #666;
 			width: 500px;
 			height: 300px;
-			margin-bottom: 30px;
+			margin-bottom: 20px;
 		}
 			.rojo-espana {
 				height: 90px;
@@ -68,7 +70,7 @@
 			border: 1px solid #666;
 			width: 500px;
 			height: 300px;
-			margin-bottom: 30px;
+			margin-bottom: 20px;
 		}
 			.cuadrado-rojo1 {
 				width: 30%;
@@ -116,7 +118,7 @@
 			border: 1px solid #666;
 			width: 500px;
 			height: 300px;
-			margin-bottom: 30px;
+			margin-bottom: 20px;
 			position: relative;
 		}
 			.interior {
@@ -167,7 +169,7 @@
 			width: 500px;
 			height: 300px;
 			background-color: #ffffff;
-			margin-bottom: 30px;
+			margin-bottom: 20px;
 		}
 
 			.circulo-rojo {
@@ -186,26 +188,25 @@
 </head>
 <body>
 	
-	<div class="contenedor-1">
-		<h1>España</h1>
+	<div class="contenedor-espana">
 		<div class="espana">
 			<div class="rojo-espana"></div>
 			<div class="amarillo-espana"></div>
 			<div class="rojo-espana"></div>
 		</div>
+		<h1>España</h1>
 	</div>
-	<div class="contenedor-2">
-		<h1>Dinamarca</h1>
+	<div class="contenedor-dinamarca">
 		<div class="dinamarca">
 			<div class="cuadrado-rojo1"></div>
 			<div class="rectangulo-rojo1"></div>
 			<div class="cuadrado-rojo2"></div>
 			<div class="rectangulo-rojo2"></div>
 		</div>
+		<h1>Dinamarca</h1>
 	</div>
 	<div class="clearfix"></div>
-	<div class="contenedor-3">
-		<h1>Emiratos Árabes</h1>
+	<div class="contenedor-emiratos">
 		<div class="emiratos">
 			<div class="rectangulo-rojo-arabe"></div>
 			<div class="interior">
@@ -214,12 +215,13 @@
 				<div class="rectangulo-negro"></div>
 			</div>
 		</div>
+		<h1>Emiratos Árabes</h1>
 	</div>
-	<div class="contenedor-4">
-		<h1>Japón</h1>
+	<div class="contenedor-japon">
 		<div class="japon">
 			<div class="circulo-rojo"></div>
 		</div>
+		<h1>Japón</h1>
 	</div>
 </body>
 </html>
